@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import {nanoid} from 'nanoid'
 import {firebase} from '../firebase'
 
@@ -93,7 +93,7 @@ const Formulario = () => {
                 persona_nacionalidad: nacionalidad
             }
             //despues de collection iba ('frutas')
-            const   data = await db.collection('personas').add(nuevapersona)
+             await db.collection('personas').add(nuevapersona)
 
             setlistaformulario([
                 //aqui iba ... listaFrutas
