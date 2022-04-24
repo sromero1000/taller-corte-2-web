@@ -1,0 +1,5 @@
+links
+amplify - https://main.dnjz2rwux6zph.amplifyapp.com/
+netlify - https://spontaneous-sprite-4d6477.netlify.app/
+repositorio
+https://github.com/sromero1000/taller-corte-2-web
